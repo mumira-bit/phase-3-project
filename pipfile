@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+sqlalchemy = "*"
+alembic = "*"
+tabulate = "*"
+click = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
